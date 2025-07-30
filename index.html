@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- page 1 -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" height="65px" width="120px" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <p>Web Developer</p>
+                <h1>Hi, i'm <span>Nikshay</span><br>From India</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- page 1 end -->
+
+    <!-- page 2 (about page) start -->
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="image"
+                        src="profile.jpeg"
+                        height="550px" width="45%">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">about me</h1>
+                    <P>Walchand Collage of Engineering sangli 
+                        bachelor of technology in electrical engineering 
+                        second-year student | cgpa:8.68
+                    </P>
+                    <div class="tab-titles">
+                        <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                        <P class="tab-links" onclick="opentab('experience')">Experience</P>
+                        <P class="tab-links" onclick="opentab('education')">Education</P>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Basic Designing using figma </li>
+                            <li><span>Web development</span><br>Web application development</li>
+                            <li><span>Electrical Engineering</span><br>MatLab(basics)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <!-- <li><span>2024-2025</span><br>web dev</li>
+                            <li><span>2024-2025</span><br>Personalised ai assistant </li>
+                            <li><span>2025</span><br>Digital Marketing</li> -->
+                             <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <!-- <li><span>2026</span><br>Walchand collage of engineering sangli</li>
+                            <li><span>2027</span><br>Walchand collage of engineering sangli</li>
+                            <li><span>2028</span><br>Walchand collage of engineering sangli</li> -->
+                             <li><span>2025</span><br>Walchand collage of engineering sangli</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -------------sevices------------- -->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-web-awesome"></i>
+                    <h2>Web Developer</h2>
+                    <p>frontend<br/>basic backend<br/>Framework and libraries</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Basic Designing using figma.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h2>electrical engineer</h2>
+                    <p>MatLab(basics).</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------portfolio------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="to do list.png"
+                        height=450px>
+                    <div class="layer">
+                        <h3>To Do list application </h3>
+                        <P>create the to do list application with background color blue having the task completing
+                            checkbox and the speech to text conversion speaker.</P>
+                        <a href="https://to-do-list-nb.vercel.app"><i class="fa-solid fa-link"></i></a>
+<!-- //                       always remove the slash back to the end of the link if its not remove then link cannot run  -->
+
+                    </div>
+                </div>
+                <!-- ///////////////////////////// -->
+                    <div class="work">
+                    <img src="eesa.jpeg"
+                        height=450px>
+                    <div class="layer">
+                        <h3>EESA WEBSITE</h3>
+                        <P>creating the eesa website using css html js and gsap</P>
+                        <a href="https://nikshaybalki.github.io/EESA-CLUB"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="notes.png"
+                        height=450px>
+                    <div class="layer">
+                        <h3>NotesSeller </h3>
+                        <P>creating the NotesSeller website using css html js </P>
+                        <a href="https://nikshaybalki.github.io/NotesSeller"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="imageforApp - 1.png"
+                        height=450px>
+                    <div class="layer">
+                        <h3>To Do list application </h3>
+                        <P>create the to do list application with background color blue having the task completing
+                            checkbox and the speech to text conversion speaker.</P>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                        <!-- ///////////////////////////// -->
+                <div class="work">
+                    <img src="imageforApp - 2.png"
+                        height=450px>
+                    <div class="layer">
+                        <h3>Graphics design application </h3>
+                        <P>create the to do list application with background color blue having the task completing
+                            checkbox and the speech to text conversion speaker.</P>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images.unsplash.com/photo-1676630444903-163fe485c5d1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cmljaWFuJTIwd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D"
+                        height=450px>
+                    <div class="layer">
+                        <h3>embadded system application </h3>
+                        <P>create the to do list application with background color blue having the task completing
+                            checkbox and the speech to text conversion speaker.</P>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn"> See more </a>
+
+        </div>
+    </div>
+
+    <!-- -----------contact----------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-share-from-square"></i>nikshay@12345.com</p>
+                    <p><i class="fa-solid fa-phone"></i>3264324709</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="portfoliodownload.png" download class="btn btn2">Download</a>
+                </div>
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-solid fa-copyright"></i> Nikshay . made in <i class="fa-solid fa-heart"></i> INDIA
+            </p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxinyO2a5p_vv4dAvn2qYH5CDor-BTfnFVzHoABIIYiLUuw_ofW6QQDIGhUruusfBjtww/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML="message send succesfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                
+                form.reset()
+            })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
